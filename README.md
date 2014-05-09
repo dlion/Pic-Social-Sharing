@@ -12,6 +12,8 @@ Just click on the button 'Pic Social Share' to insert the shortcode.
 Through the setting of a simple (0 or 1) can enable or disable the display of individual buttons.
 Moreover it is always possible via shortcode determine the display position of the block of buttons
 
+DEMO: http://www.picaland.it/chi-sono/
+
 == Installation ==
 
 This section describes how to install the plugin and get it working.
