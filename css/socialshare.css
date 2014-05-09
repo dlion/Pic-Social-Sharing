@@ -1,0 +1,303 @@
+/** SOCIAL SHARE CSS **/
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+}
+.pic_socialshare ul{
+    margin: 0;
+}
+.pic_socialshare h5{
+    margin: 0;
+    text-align: center;
+}
+.pic_socialshare ul li{
+    list-style: none;
+    height: 60px;
+}
+.pic_socialshare ul li:before{
+    content: none !important;
+}
+
+.pic_socialshare ul li{
+    display: inline-block;
+    margin: 0 2px 0 0;
+    position: relative;
+    float: left;
+}
+.arrow-count {
+    border-bottom: 20px solid #FFFFFF;
+    border-left: 20px solid rgba(0, 0, 0, 0);
+    border-right: 20px solid rgba(0, 0, 0, 0);
+    left: 50%;
+    margin-bottom: -0.5px;
+    margin-left: -20px;
+    position: absolute;
+    top: 30px;
+}
+.pic_socialshare{
+    padding: 2rem 0;
+    float: left;
+}
+.pic_socialshare h3{
+    margin-bottom: 0;
+}
+.pic_socialshare .fb{
+    -webkit-transition: all ease-in 120ms 0ms;
+    -moz-transition: all ease-in 120ms 0ms;
+    -ms-transition: all ease-in 120ms 0ms;
+    -o-transition: all ease-in 120ms 0ms;
+    transition: all ease-in 120ms 0ms;
+    background: #3B5998;
+}
+.pic_socialshare .tw{
+    -webkit-transition: all ease-in 120ms 0ms;
+    -moz-transition: all ease-in 120ms 0ms;
+    -ms-transition: all ease-in 120ms 0ms;
+    -o-transition: all ease-in 120ms 0ms;
+    transition: all ease-in 120ms 0ms;
+    background: #55ACEE;
+}
+.pic_socialshare .in{
+    -webkit-transition: all ease-in 120ms 0ms;
+    -moz-transition: all ease-in 120ms 0ms;
+    -ms-transition: all ease-in 120ms 0ms;
+    -o-transition: all ease-in 120ms 0ms;
+    transition: all ease-in 120ms 0ms;
+    background: #007bb6;
+}
+.pic_socialshare .gp{
+    -webkit-transition: all ease-in 120ms 0ms;
+    -moz-transition: all ease-in 120ms 0ms;
+    -ms-transition: all ease-in 120ms 0ms;
+    -o-transition: all ease-in 120ms 0ms;
+    transition: all ease-in 120ms 0ms;
+    background: #DD4B39;
+}
+.pic_socialshare .pt{
+    -webkit-transition: all ease-in 120ms 0ms;
+    -moz-transition: all ease-in 120ms 0ms;
+    -ms-transition: all ease-in 120ms 0ms;
+    -o-transition: all ease-in 120ms 0ms;
+    transition: all ease-in 120ms 0ms;
+    background: #C8232C;
+}
+
+.pic_socialshare .fb:hover{
+    -webkit-transition: all ease-in 120ms 0ms;
+    -moz-transition: all ease-in 120ms 0ms;
+    -ms-transition: all ease-in 120ms 0ms;
+    -o-transition: all ease-in 120ms 0ms;
+    transition: all ease-in 120ms 0ms;
+    background: rgba(59, 89, 152, 0.80);
+}
+.pic_socialshare .tw:hover{
+    -webkit-transition: all ease-in 120ms 0ms;
+    -moz-transition: all ease-in 120ms 0ms;
+    -ms-transition: all ease-in 120ms 0ms;
+    -o-transition: all ease-in 120ms 0ms;
+    transition: all ease-in 120ms 0ms;
+    background: rgba(85, 172, 238, 0.80);
+}
+.pic_socialshare .in:hover{
+    -webkit-transition: all ease-in 120ms 0ms;
+    -moz-transition: all ease-in 120ms 0ms;
+    -ms-transition: all ease-in 120ms 0ms;
+    -o-transition: all ease-in 120ms 0ms;
+    transition: all ease-in 120ms 0ms;
+    background: rgba(0, 123, 182, 0.80);
+}
+.pic_socialshare .gp:hover{
+    -webkit-transition: all ease-in 120ms 0ms;
+    -moz-transition: all ease-in 120ms 0ms;
+    -ms-transition: all ease-in 120ms 0ms;
+    -o-transition: all ease-in 120ms 0ms;
+    transition: all ease-in 120ms 0ms;
+    background: rgba(221, 75, 57, 0.80);
+}
+.pic_socialshare .pt:hover{
+    -webkit-transition: all ease-in 120ms 0ms;
+    -moz-transition: all ease-in 120ms 0ms;
+    -ms-transition: all ease-in 120ms 0ms;
+    -o-transition: all ease-in 120ms 0ms;
+    transition: all ease-in 120ms 0ms;
+    background: rgba(200, 35, 44, 0.80);
+}
+.pic_socialshare .fb,
+.pic_socialshare .tw,
+.pic_socialshare .in,
+.pic_socialshare .gp,
+.pic_socialshare .pt{
+    border-radius: 4px;
+    height: auto;
+    width: 80px;
+    padding: 0;
+    line-height: 0;
+    display: inline-block;
+    margin: 2px 0 ;
+    text-align: center;
+}
+.pic_socialshare .counter{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 0 0 2px 2px;
+    display: inline-block;
+    font-family: "Helvetica",sans-serif;
+    font-size: 14px;
+    height: 20px;
+    line-height: 1.3em;
+    padding: 2px 1px;
+    margin: 0 3px 4px;
+    position: relative;
+    width: 72px;
+}
+.pic_socialshare .counter-fb{
+    color: #3B5998;
+}
+.pic_socialshare .counter-in{
+    color: #007bb6;
+}
+.pic_socialshare .counter-tw{
+    color: #55ACEE;
+}
+.pic_socialshare .counter-gp{
+    color: #DD4B39;
+}
+.pic_socialshare .counter-pt{
+    color: #C8232C;
+}
+.pic_socialshare i.fa{
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 1.2;
+    padding: 6px 0 8px;
+    text-shadow: 1px 1px 0 #333333;
+}
+
+/* fixed socialshare */
+.pic_socialshare.fixed{
+    -webkit-transition: all ease-in-out 1000ms 0ms;
+    -moz-transition: all ease-in-out 1000ms 0ms;
+    -ms-transition: all ease-in-out 1000ms 0ms;
+    -o-transition: all ease-in-out 1000ms 0ms;
+    transition: all ease-in-out 1000ms 0ms;
+    padding: 0.5rem;
+    position: fixed;
+    width: auto;
+    float: left;
+    height: 360px;
+    top: auto;
+    bottom: 25%;
+    left: -100%;
+    z-index: 99999;
+}
+.controll-box{
+    line-height: 1.6em;
+}
+.controll{
+    -webkit-transition: all ease-in-out 1000ms 0ms;
+    -moz-transition: all ease-in-out 1000ms 0ms;
+    -ms-transition: all ease-in-out 1000ms 0ms;
+    -o-transition: all ease-in-out 1000ms 0ms;
+    transition: all ease-in-out 1000ms 0ms;
+    background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px solid #DDDDDD;
+    border-radius: 0 4px 4px 0;
+    bottom: 67%;
+    float: left;
+    height: 30px;
+    padding: 1px 7px;
+    position: fixed;
+    top: auto;
+    width: 30px;
+    left: -100%;
+    z-index: 2147483647;
+    cursor: pointer;
+}
+.controll i.fa{
+    color: #000000;
+}
+.pic_socialshare.fixed .sharetitle{
+    display: inline-block;
+    width: 80px;
+}
+.pic_socialshare.fixed ul li{
+    display: block;
+    float: none;
+    height: 60px;
+    margin: 0;
+}
+.pic_socialshare.fixed .counter{
+    margin: 0 3px 4px;
+}
+/* copy */
+.copy{
+    -webkit-transition: all ease-in-out 1000ms 0ms;
+    -moz-transition: all ease-in-out 1000ms 0ms;
+    -ms-transition: all ease-in-out 1000ms 0ms;
+    -o-transition: all ease-in-out 1000ms 0ms;
+    transition: all ease-in-out 1000ms 0ms;
+    border-radius: 4px;
+    display: inline-block;
+    float: left;
+    font-size: 10px;
+    margin: 5px 5% auto;
+    text-align: center;
+    width: 90%;
+    visibility: hidden;
+}
+.copy a{
+    text-decoration: none;
+}
+
+.pic_socialshare:hover .copy{
+    visibility: visible;
+}
+/** MEDIA QUERIES **/
+@media only screen and (max-width:40em){
+
+    .controll{
+        display: none;
+    }
+    .pic_socialshare.fixed{
+        background: none;
+        border: none;
+        border-radius: 0;
+        padding: 2rem 0;
+        float: left;
+        position: relative !important;
+        left: 0 !important;
+        bottom: auto !important;
+        height: auto;
+    }
+    .pic_socialshare.fixed ul li{
+        list-style: none;
+        height: 60px;
+    }
+    .pic_socialshare.fixed ul li:before{
+        content: none !important;
+    }
+
+    .pic_socialshare.fixed ul li{
+        display: inline-block;
+        margin: 0 2px 0 0;
+        position: relative;
+        float: left;
+    }
+    .pic_socialshare.fixed .sharetitle {
+        display: block;
+        width: auto;
+    }
+    .pic_socialshare .counter{
+        font-size: 12px;
+        width: 65px;
+    }
+    .pic_socialshare .fb,
+    .pic_socialshare .tw,
+    .pic_socialshare .in,
+    .pic_socialshare .gp,
+    .pic_socialshare .pt{
+        width: 73px;
+    }
+    
+}
